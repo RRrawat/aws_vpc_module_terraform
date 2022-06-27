@@ -17,10 +17,6 @@ $ terraform -v
 
 ## Steps to run terraform scripts
 
-## Initial Step
-Uncomment the [provider.tf](./provider.tf) file
-and Comment the [provider.tf](./provider.tf) if need to run [full-stack](../full-stack)
-
 ## 1. Clone the repository and change the directory
 
 ```console
