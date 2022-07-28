@@ -1,7 +1,7 @@
 name = "xyz-vpc"
 aws_profile = "default"
 region = "us-east-1"
-s3_bucket_name = "terraform-state-files9"
+s3_bucket_name = "xyzbucket/###################"
 Object_key_path = "vpcstate/terraform.tfstate"
 enable_versioning = true
 s3_acl = "private"
