@@ -1,4 +1,4 @@
-name = "ccl"
+name = "xyz-vpc"
 aws_profile = "default"
 region = "us-east-1"
 s3_bucket_name = "terraform-state-files9"
