@@ -1,5 +1,6 @@
 name = "xyz-vpc"
 aws_profile = "default"
+user_arn = "########################################"
 region = "us-east-1"
 s3_bucket_name = "xyzbucket/###################"
 Object_key_path = "vpcstate/terraform.tfstate"
@@ -8,7 +9,6 @@ s3_acl = "private"
  prevent_destroy = true
 force_destroy = false
 block_public_access = true
-user_arn = "########################################"
 cidr = "10.0.0.0/16"
 azs = ["us-east-1a", "us-east-1b", "us-east-1c"]
 public_subnets = ["10.0.3.0/24", "10.0.4.0/24", "10.0.5.0/24"]
