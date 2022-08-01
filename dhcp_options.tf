@@ -12,11 +12,7 @@ resource "aws_vpc_dhcp_options" "this" {
   netbios_name_servers = var.dhcp_options_netbios_name_servers
   netbios_node_type    = var.dhcp_options_netbios_node_type
 
-  tags = merge(
-    { "Name" = var.name },
-    var.tags,
-    var.dhcp_options_tags,
-  )
+  tags = module.tags.commontags
 }
 
 resource "aws_vpc_dhcp_options_association" "this" {
