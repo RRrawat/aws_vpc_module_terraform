@@ -12,7 +12,9 @@ resource "aws_vpc_dhcp_options" "this" {
 
   tags = module.tags.commontags
 }
-
+/**************************************************************************
+* DHCP association with vpc
+********************************************************************/
 resource "aws_vpc_dhcp_options_association" "this" {
   count = local.create_vpc && var.enable_dhcp_options ? 1 : 0
 
