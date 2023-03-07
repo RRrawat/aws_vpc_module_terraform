@@ -13,6 +13,7 @@ resource "aws_vpc_dhcp_options" "this" {
 
   tags = module.tags.commontags
 }
+  
 /**************************************************************************
 * DHCP association with vpc
 ********************************************************************/
